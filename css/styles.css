@@ -846,8 +846,10 @@ img {
 
 
 .check-text {
-  /* display: flex; */
-  line-height: 1.71;
+  width: 425px;
+  height: 24px;
+  padding-left: 12px;
+    line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -867,6 +869,7 @@ img {
 .checkbox-link {
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color:var(--accent-text-color-first);
 }
 
 .modal-btn {
